@@ -1,0 +1,10 @@
+streamlit>=1.38.0
+pandas>=2.2.2
+openpyxl>=3.1.2
+google-genai>=0.3.0
+python-dotenv>=1.0.1
+mlxtend>=0.23.1
+scikit-learn>=1.5.0
+plotly>=5.22.0
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.30
