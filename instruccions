@@ -1,0 +1,10 @@
+Hola Marc,
+
+per quan ho llegeixs i clonis el repo al teu portátil:
+
+1) Et passaré el contingut del fitxer .env on estan les contrasenyes de la base de dades, etc. Així ho tens tot, perquè amb el Gitignore no es veuen aquí
+2) Si quan et baixis el repo no tens les dades, te les passo també
+3) Afegeix com a intérpret de Python al projecte el del docker compose
+4) docker compose up --build
+
+Així dimecres tenim ja tot creat i podem començar
