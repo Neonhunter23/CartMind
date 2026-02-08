@@ -1,0 +1,642 @@
+OrderID,OrderDate,name,category,price,short_description,dimensions,link
+DEMO-1396,2023-01-01,NYMÅNE,Lighting,45.0,Lámpara techo,Ancho: 40cm,https://www.ikea.com/es/es/search/products/?q=NYMÅNE
+DEMO-4588,2023-01-01,TÄRNÖ,Outdoor,15.0,Mesa jardín,140x78 cm,https://www.ikea.com/es/es/search/products/?q=ÄPPLARÖ
+DEMO-4588,2023-01-01,ÄPPLARÖ,Outdoor,149.0,Mesa jardín,140x78 cm,https://www.ikea.com/es/es/search/products/?q=ÄPPLARÖ
+DEMO-4710,2023-01-01,MICKE,Tables,89.0,Escritorio blanco,73x50 cm,https://www.ikea.com/es/es/search/products/?q=MICKE
+DEMO-5528,2023-01-01,MARKUS,Chairs,179.0,Silla ergonómica,Alto: 140cm,https://www.ikea.com/es/es/search/products/?q=MARKUS
+DEMO-6194,2023-01-01,STOCKHOLM,Decoration,99.0,Espejo redondo,80 cm,https://www.ikea.com/es/es/search/products/?q=STOCKHOLM
+DEMO-6544,2023-01-01,FLINTAN,Chairs,79.0,Silla escritorio,Alto: 110cm,https://www.ikea.com/es/es/search/products/?q=FLINTAN
+DEMO-7401,2023-01-01,MALM,Beds,249.0,Cama alta,160x200 cm,https://www.ikea.com/es/es/search/products/?q=MALM
+DEMO-7401,2023-01-01,NATTJASMIN,Textiles,29.99,Cama alta,160x200 cm,https://www.ikea.com/es/es/search/products/?q=MALM
+DEMO-9542,2023-01-01,TÄRNÖ,Outdoor,15.0,Silla plegable,Alto: 70cm,https://www.ikea.com/es/es/search/products/?q=TÄRNÖ
+O1001,2024-09-15,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1004,2024-11-20,GULLKLOCKA,Bedding,49.99,,,
+O1005,2024-12-10,FADO,Lamps,19.99,,,
+O1005,2024-12-10,GULLKLOCKA,Bedding,59.99,,,
+O1005,2024-12-11,GULLKLOCKA,Bedding,59.99,,,
+O1005,2024-12-10,HEKTAR,Lamps,930.56,,,
+O1005,2024-12-10,TRÅDFRI,Lighting,15.0,,,
+O1006,2023-04-25,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1007,2024-08-26,TILLREDA,Appliances,957.28,,,
+O1007,2024-08-28,VINDUM,Rugs,250.0,,,
+O1009,2023-08-03,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1009,2023-08-03,LINNMON/ADILS,Tables,260.12,,,
+O1010,2024-08-03,STOENSE,Rugs,140.91,,,
+O1010,2024-08-04,STOENSE,Rugs,140.91,,,
+O1013,2024-01-26,LINNMON/ADILS,Tables,260.12,,,
+O1014,2023-01-23,HEKTAR,Lamps,930.56,,,
+O1014,2023-01-23,TRÅDFRI,Lighting,15.0,,,
+O1015,2023-02-08,FÄRGRIK,Dinnerware,1.89,,,
+O1018,2023-09-07,FADO,Lamps,884.09,,,
+O1018,2023-09-09,FÄRGRIK,Dinnerware,1.89,,,
+O1018,2023-09-07,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1019,2023-04-10,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1020,2024-03-24,GULLKLOCKA,Bedding,59.99,,,
+O1022,2024-11-20,LERSTA,Lamps,5.99,,,
+O1023,2023-07-06,LINNMON/ADILS,Tables,260.12,,,
+O1023,2023-07-06,OFTAST,Dinnerware,4.99,,,
+O1024,2024-07-27,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1027,2024-06-28,FÄLTSKÄR,Bedding,993.45,,,
+O1027,2024-06-25,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1027,2024-06-25,LAGAN,Appliances,600.0,,,
+O1028,2023-11-04,FÄLTSKÄR,Bedding,45.0,,,
+O1031,2024-05-10,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1032,2023-06-21,OFTAST,Dinnerware,1.49,,,
+O1032,2023-06-22,TILLREDA,Appliances,957.28,,,
+O1033,2024-10-21,GULLKLOCKA,Bedding,59.99,,,
+O1033,2024-10-18,VINDUM,Rugs,250.0,,,
+O1035,2024-04-03,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1036,2023-09-17,KALLAX,Bookcases & shelving units,45.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1036,2023-09-17,LAGAN,Appliances,600.0,,,
+O1038,2023-01-08,GULLKLOCKA,Bedding,55.0,,,
+O1039,2024-10-29,FADO,Lamps,22.0,,,
+O1039,2024-10-29,FADO,Lamps,22.0,,,
+O1040,2023-08-20,LINNMON/ADILS,Tables,260.12,,,
+O1044,2023-03-12,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1044,2023-03-12,TILLREDA,Appliances,957.28,,,
+O1045,2024-12-05,HEKTAR,Lamps,930.56,,,
+O1045,2024-12-05,TRÅDFRI,Lighting,15.0,,,
+O1048,2023-04-05,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1048,2023-04-07,LERSTA,Lamps,5.99,,,
+O1049,2024-06-19,FÄRGRIK,Dinnerware,1.89,,,
+O1049,2024-06-20,OFTAST,Dinnerware,1.49,,,
+O1050,2023-11-13,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1050,2023-11-12,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1050,2023-11-10,FADO,Lamps,22.0,,,
+O1050,2023-11-10,OFTAST,Dinnerware,1.49,,,
+O1050,2023-11-12,OFTAST,Dinnerware,1.49,,,
+O1050,2023-11-09,STOENSE,Rugs,140.91,,,
+O1051,2024-03-01,LERSTA,Lamps,5.99,,,
+O1051,2024-03-01,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1052,2023-06-06,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1054,2023-01-20,FADO,Lamps,22.0,,,
+O1054,2023-01-20,GULLKLOCKA,Bedding,55.0,,,
+O1054,2023-01-20,HEKTAR,Lamps,930.56,,,
+O1056,2023-08-07,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1062,2023-12-10,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1063,2024-06-03,LERSTA,Lamps,5.99,,,
+O1063,2024-06-03,OFTAST,Dinnerware,1.49,,,
+O1065,2024-11-25,FADO,Lamps,22.0,,,
+O1068,2023-02-04,LERSTA,Lamps,5.99,,,
+O1068,2023-02-04,TILLREDA,Appliances,957.28,,,
+O1073,2024-10-08,FÄLTSKÄR,Bedding,993.45,,,
+O1073,2024-10-06,OFTAST,Dinnerware,1.49,,,
+O1074,2023-04-16,LERSTA,Lamps,5.99,,,
+O1074,2023-04-16,STOENSE,Rugs,140.91,,,
+O1076,2023-05-02,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1077,2024-07-29,FADO,Lamps,22.0,,,
+O1078,2023-12-25,LAGAN,Appliances,600.0,,,
+O1080,2023-08-11,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1081,2024-02-09,LINNMON/ADILS,Tables,260.12,,,
+O1082,2023-03-22,LERSTA,Lamps,5.99,,,
+O1084,2023-09-02,GULLKLOCKA,Bedding,59.99,,,
+O1085,2024-11-17,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1086,2023-04-20,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1087,2024-06-14,TILLREDA,Appliances,957.28,,,
+O1088,2023-11-06,HEKTAR,Lamps,930.56,,,
+O1088,2023-11-06,TRÅDFRI,Lighting,15.0,,,
+O1089,2024-03-09,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1091,2024-10-02,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1091,2024-10-02,STOENSE,Rugs,140.91,,,
+O1092,2023-01-26,FADO,Lamps,22.0,,,
+O1092,2023-01-26,OFTAST,Dinnerware,1.49,,,
+O1093,2024-05-24,FADO,Lamps,22.0,,,
+O1094,2023-10-14,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1094,2023-10-14,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1095,2024-02-29,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1095,2024-02-24,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1096,2023-07-23,LAGAN,Appliances,600.0,,,
+O1097,2024-09-18,FÄLTSKÄR,Bedding,993.45,,,
+O1099,2024-07-08,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1099,2024-07-09,FÄRGRIK,Dinnerware,1.89,,,
+O1099,2024-07-09,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1099,2024-07-07,LERSTA,Lamps,5.99,,,
+O1099,2024-07-09,LERSTA,Lamps,5.99,,,
+O1099,2024-07-14,LERSTA,Lamps,5.99,,,
+O1099,2024-07-07,LINNMON/ADILS,Tables,260.12,,,
+O1099,2024-07-13,OFTAST,Dinnerware,1.49,,,
+O1101,2024-07-28,BRIMNES,Beds,355.25,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1101,2024-07-28,LERSTA,Lamps,5.99,,,
+O1101,2024-07-28,LINNMON/ADILS,Tables,260.12,,,
+O1102,2024-12-07,HEKTAR,Lamps,574.11,,,
+O1102,2024-12-07,TRÅDFRI,Lighting,15.0,,,
+O1104,2023-04-13,FÄRGRIK,Dinnerware,1.89,,,
+O1104,2023-04-13,STOENSE,Rugs,963.97,,,
+O1105,2023-07-01,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1105,2023-06-30,GRÖNLID,Beds,603.37,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1106,2024-08-15,FÄRGRIK,Dinnerware,1.89,,,
+O1108,2024-01-20,HEKTAR,Lamps,930.56,,,
+O1108,2024-01-20,TRÅDFRI,Lighting,15.0,,,
+O1109,2023-03-08,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1111,2023-02-14,FÄLTSKÄR,Bedding,993.45,,,
+O1111,2023-02-14,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1114,2024-03-04,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1114,2024-03-05,KIVIK,Chairs,800.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1114,2024-03-05,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1115,2023-07-28,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1115,2023-07-26,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1119,2023-09-05,LACK,Bookcases & shelving units,20.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1121,2023-06-25,FÄRGRIK,Dinnerware,1.89,,,
+O1123,2023-04-02,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1125,2023-08-25,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1126,2024-02-14,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1126,2024-02-12,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1126,2024-02-17,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1126,2024-02-19,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1127,2023-03-31,GULLKLOCKA,Bedding,59.99,,,
+O1127,2023-03-31,VINDUM,Rugs,250.0,,,
+O1129,2023-05-17,LERSTA,Lamps,5.99,,,
+O1130,2024-11-09,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1131,2023-12-28,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1131,2024-01-01,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1133,2023-10-09,FÄLTSKÄR,Bedding,993.45,,,
+O1133,2023-10-04,GULLKLOCKA,Bedding,55.0,,,
+O1133,2023-10-06,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1133,2023-10-06,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1133,2023-10-09,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1136,2024-01-28,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1136,2024-02-01,KALLAX,Bookcases & shelving units,45.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1136,2024-02-04,LAGAN,Appliances,600.0,,,
+O1136,2024-02-05,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1138,2024-07-23,STOENSE,Rugs,140.91,,,
+O1140,2024-11-21,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1142,2024-08-07,FÄRGRIK,Dinnerware,1.89,,,
+O1144,2024-06-08,LAGAN,Appliances,600.0,,,
+O1144,2024-06-05,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1147,2023-08-01,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1148,2024-01-09,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1151,2023-10-17,LINNMON/ADILS,Tables,260.12,,,
+O1152,2024-03-20,FÄLTSKÄR,Bedding,993.45,,,
+O1152,2024-03-14,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1153,2023-06-13,VINDUM,Rugs,250.0,,,
+O1154,2024-11-04,FADO,Lamps,22.0,,,
+O1154,2024-11-04,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1154,2024-11-04,STOENSE,Rugs,140.91,,,
+O1157,2023-05-09,GULLKLOCKA,Bedding,59.99,,,
+O1159,2023-11-07,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1160,2024-05-27,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1161,2023-04-18,OFTAST,Dinnerware,1.49,,,
+O1165,2023-01-10,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1166,2024-08-20,TILLREDA,Appliances,957.28,,,
+O1167,2023-03-24,GULLKLOCKA,Bedding,59.99,,,
+O1168,2024-09-12,GULLKLOCKA,Bedding,59.99,,,
+O1168,2024-09-12,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1168,2024-09-12,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1168,2024-09-12,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1169,2023-11-19,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1171,2023-07-09,LINNMON/ADILS,Tables,260.12,,,
+O1172,2024-01-24,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1172,2024-01-23,TILLREDA,Appliances,957.28,,,
+O1173,2023-03-02,FÄLTSKÄR,Bedding,993.45,,,
+O1174,2024-08-05,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1174,2024-08-05,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1175,2023-12-18,FADO,Lamps,22.0,,,
+O1176,2024-06-22,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1178,2024-05-12,STOENSE,Rugs,140.91,,,
+O1179,2023-01-29,HEKTAR,Lamps,930.56,,,
+O1179,2023-01-29,TRÅDFRI,Lighting,15.0,,,
+O1180,2024-10-13,FÄLTSKÄR,Bedding,993.45,,,
+O1180,2024-10-13,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1180,2024-10-10,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1180,2024-10-13,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1180,2024-10-14,LAGAN,Appliances,600.0,,,
+O1181,2023-04-28,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1183,2023-02-18,FÄRGRIK,Dinnerware,1.89,,,
+O1184,2024-07-25,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1185,2023-11-16,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1185,2023-11-17,LERSTA,Lamps,5.99,,,
+O1186,2024-12-01,LINNMON/ADILS,Tables,260.12,,,
+O1187,2023-01-04,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1187,2023-01-04,FADO,Lamps,22.0,,,
+O1187,2023-01-05,STOENSE,Rugs,140.91,,,
+O1187,2023-01-05,VINDUM,Rugs,250.0,,,
+O1188,2024-06-15,LAGAN,Appliances,600.0,,,
+O1189,2023-09-10,VINDUM,Rugs,250.0,,,
+O1191,2023-07-18,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1192,2024-11-20,HEKTAR,Lamps,930.56,,,
+O1192,2024-11-20,TRÅDFRI,Lighting,15.0,,,
+O1194,2024-05-08,GULLKLOCKA,Bedding,59.99,,,
+O1197,2023-08-01,LERSTA,Lamps,5.99,,,
+O1198,2024-02-20,OFTAST,Dinnerware,1.49,,,
+O1199,2023-06-03,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1199,2023-06-05,STOENSE,Rugs,140.91,,,
+O1201,2023-05-28,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1202,2024-01-15,FADO,Lamps,22.0,,,
+O1202,2024-01-11,HEKTAR,Lamps,930.56,,,
+O1203,2023-03-09,LAGAN,Appliances,600.0,,,
+O1203,2023-03-09,LINNMON/ADILS,Tables,260.12,,,
+O1204,2024-07-04,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1204,2024-07-06,LERSTA,Lamps,5.99,,,
+O1205,2023-11-29,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1205,2023-12-01,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1205,2023-12-05,LERSTA,Lamps,5.99,,,
+O1206,2024-05-22,STOENSE,Rugs,140.91,,,
+O1209,2023-10-15,FÄRGRIK,Dinnerware,1.89,,,
+O1210,2024-04-01,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1214,2024-09-07,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1214,2024-09-08,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1216,2024-07-29,LINNMON/ADILS,Tables,260.12,,,
+O1216,2024-07-29,TILLREDA,Appliances,957.28,,,
+O1217,2023-12-14,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1217,2023-12-16,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1220,2024-10-24,FADO,Lamps,22.0,,,
+O1223,2023-02-23,HEKTAR,Lamps,930.56,,,
+O1223,2023-02-21,LAGAN,Appliances,600.0,,,
+O1223,2023-02-23,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1223,2023-02-23,TRÅDFRI,Lighting,15.0,,,
+O1224,2024-08-01,TILLREDA,Appliances,957.28,,,
+O1224,2024-08-01,VINDUM,Rugs,250.0,,,
+O1225,2023-01-27,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1226,2024-03-12,HEKTAR,Lamps,930.56,,,
+O1226,2024-03-12,TRÅDFRI,Lighting,15.0,,,
+O1227,2023-07-21,OFTAST,Dinnerware,1.49,,,
+O1228,2024-11-13,FÄLTSKÄR,Bedding,993.45,,,
+O1229,2023-04-10,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1230,2024-08-25,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1232,2024-05-20,FADO,Lamps,22.0,,,
+O1232,2024-05-18,LAGAN,Appliances,600.0,,,
+O1232,2024-05-18,LINNMON/ADILS,Tables,260.12,,,
+O1233,2023-09-15,LINNMON/ADILS,Tables,260.12,,,
+O1234,2024-04-26,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1234,2024-04-22,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1234,2024-04-29,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1234,2024-04-26,OFTAST,Dinnerware,1.49,,,
+O1234,2024-04-19,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1235,2023-08-08,STOENSE,Rugs,140.91,,,
+O1237,2023-05-02,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1237,2023-05-02,HEKTAR,Lamps,930.56,,,
+O1237,2023-05-02,TRÅDFRI,Lighting,15.0,,,
+O1240,2024-06-20,GULLKLOCKA,Bedding,59.99,,,
+O1241,2023-01-15,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1242,2024-09-02,FADO,Lamps,22.0,,,
+O1242,2024-09-05,FADO,Lamps,22.0,,,
+O1242,2024-09-05,HEKTAR,Lamps,930.56,,,
+O1242,2024-09-04,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1242,2024-09-06,LERSTA,Lamps,5.99,,,
+O1242,2024-09-03,STOENSE,Rugs,140.91,,,
+O1242,2024-09-05,TRÅDFRI,Lighting,15.0,,,
+O1243,2023-03-24,TILLREDA,Appliances,957.28,,,
+O1244,2024-01-05,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1245,2023-05-09,GULLKLOCKA,Bedding,59.99,,,
+O1245,2023-05-09,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1246,2024-09-15,VINDUM,Rugs,250.0,,,
+O1248,2024-07-23,FÄRGRIK,Dinnerware,1.89,,,
+O1249,2023-11-20,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1249,2023-11-20,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1250,2024-05-06,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1250,2024-05-06,LAGAN,Appliances,600.0,,,
+O1251,2023-08-11,FADO,Lamps,22.0,,,
+O1253,2023-01-22,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1254,2024-06-09,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1257,2023-10-01,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1259,2023-08-22,STOENSE,Rugs,140.91,,,
+O1260,2024-12-04,HEKTAR,Lamps,930.56,,,
+O1260,2024-12-04,TRÅDFRI,Lighting,15.0,,,
+O1261,2023-02-18,FÄRGRIK,Dinnerware,1.89,,,
+O1261,2023-02-20,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1262,2024-07-02,FÄRGRIK,Dinnerware,1.89,,,
+O1262,2024-07-01,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1263,2023-11-25,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1263,2023-11-26,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1263,2023-11-28,HEKTAR,Lamps,780.0,,,
+O1263,2023-11-28,LERSTA,Lamps,5.99,,,
+O1263,2023-11-28,TRÅDFRI,Lighting,15.0,,,
+O1265,2023-07-13,FADO,Lamps,22.0,,,
+O1265,2023-07-15,PAX,Wardrobes,999.0,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1266,2024-11-01,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1266,2024-11-02,FADO,Lamps,616.25,,,
+O1266,2024-11-01,LAGAN,Appliances,600.0,,,
+O1267,2023-05-16,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1268,2024-09-09,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1269,2023-03-01,VINDUM,Rugs,250.0,,,
+O1271,2023-11-15,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1271,2023-11-14,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1271,2023-11-14,OFTAST,Dinnerware,1.49,,,
+O1272,2024-03-29,HEKTAR,Lamps,930.56,,,
+O1272,2024-03-27,OFTAST,Dinnerware,1.49,,,
+O1272,2024-03-29,TRÅDFRI,Lighting,15.0,,,
+O1274,2024-12-25,HEKTAR,Lamps,930.56,,,
+O1274,2024-12-25,TRÅDFRI,Lighting,15.0,,,
+O1275,2023-01-18,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1275,2023-01-18,LERSTA,Lamps,5.99,,,
+O1276,2024-06-22,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1276,2024-06-22,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1277,2023-09-05,TILLREDA,Appliances,957.28,,,
+O1279,2023-08-16,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1279,2023-08-15,FADO,Lamps,22.0,,,
+O1279,2023-08-18,FADO,Lamps,22.0,,,
+O1279,2023-08-19,LERSTA,Lamps,5.99,,,
+O1280,2024-12-19,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1280,2024-12-21,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1280,2024-12-19,LAGAN,Appliances,600.0,,,
+O1281,2023-05-25,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1281,2023-05-27,LERSTA,Lamps,5.99,,,
+O1281,2023-05-26,OFTAST,Dinnerware,1.49,,,
+O1283,2023-03-05,OFTAST,Dinnerware,1.49,,,
+O1287,2023-08-29,FÄLTSKÄR,Bedding,993.45,,,
+O1287,2023-08-30,OFTAST,Dinnerware,1.49,,,
+O1291,2023-02-28,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1293,2023-11-08,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1294,2024-05-28,HEKTAR,Lamps,930.56,,,
+O1294,2024-05-28,TRÅDFRI,Lighting,15.0,,,
+O1297,2023-01-31,GULLKLOCKA,Bedding,59.99,,,
+O1298,2024-11-18,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1298,2024-11-18,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1299,2023-06-08,FADO,Lamps,22.0,,,
+O1299,2023-06-07,LERSTA,Lamps,5.99,,,
+O1299,2023-06-11,STOENSE,Rugs,140.91,,,
+O1300,2024-10-09,LAGAN,Appliances,600.0,,,
+O1301,2023-03-29,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1302,2024-08-23,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1302,2024-08-21,LINNMON/ADILS,Tables,260.12,,,
+O1303,2023-01-25,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1303,2023-01-25,STOENSE,Rugs,140.91,,,
+O1304,2024-07-03,FADO,Lamps,22.0,,,
+O1305,2023-11-01,OFTAST,Dinnerware,1.49,,,
+O1305,2023-11-01,VINDUM,Rugs,250.0,,,
+O1306,2024-05-13,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1306,2024-05-13,LERSTA,Lamps,5.99,,,
+O1306,2024-05-15,LERSTA,Lamps,5.99,,,
+O1309,2023-06-28,HEKTAR,Lamps,930.56,,,
+O1310,2024-10-17,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1311,2023-02-15,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1312,2024-07-20,HEKTAR,Lamps,930.56,,,
+O1312,2024-07-19,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1312,2024-07-16,LAGAN,Appliances,600.0,,,
+O1312,2024-07-20,TRÅDFRI,Lighting,15.0,,,
+O1312,2024-07-20,VINDUM,Rugs,250.0,,,
+O1315,2023-03-19,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1315,2023-03-17,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1315,2023-03-19,LERSTA,Lamps,5.99,,,
+O1315,2023-03-20,LINNMON/ADILS,Tables,260.12,,,
+O1316,2024-11-26,HEKTAR,Lamps,930.56,,,
+O1316,2024-11-25,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1316,2024-11-25,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1316,2024-11-26,TRÅDFRI,Lighting,15.0,,,
+O1318,2024-09-29,FADO,Lamps,22.0,,,
+O1318,2024-09-28,HEKTAR,Lamps,930.56,,,
+O1319,2023-02-07,TILLREDA,Appliances,957.28,,,
+O1320,2024-07-27,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1320,2024-07-27,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1321,2023-10-24,GULLKLOCKA,Bedding,59.99,,,
+O1321,2023-10-20,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1322,2024-04-05,HEKTAR,Lamps,930.56,,,
+O1322,2024-04-03,STOENSE,Rugs,140.91,,,
+O1322,2024-04-05,STOENSE,Rugs,140.91,,,
+O1322,2024-04-05,TRÅDFRI,Lighting,15.0,,,
+O1323,2023-08-28,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1323,2023-08-26,LERSTA,Lamps,5.99,,,
+O1324,2024-12-22,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1324,2024-12-22,LINNMON/ADILS,Tables,260.12,,,
+O1325,2023-05-18,FADO,Lamps,22.0,,,
+O1325,2023-05-20,FÄLTSKÄR,Bedding,993.45,,,
+O1325,2023-05-18,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1326,2024-10-01,FÄRGRIK,Dinnerware,1.89,,,
+O1330,2024-05-01,FÄLTSKÄR,Bedding,993.45,,,
+O1335,2023-01-11,STOENSE,Rugs,140.91,,,
+O1336,2024-06-29,HEKTAR,Lamps,930.56,,,
+O1336,2024-06-29,TRÅDFRI,Lighting,15.0,,,
+O1337,2023-04-20,OFTAST,Dinnerware,1.49,,,
+O1338,2024-11-09,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1338,2024-11-09,LERSTA,Lamps,5.99,,,
+O1338,2024-11-09,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1339,2023-06-15,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1339,2023-06-19,LAGAN,Appliances,600.0,,,
+O1340,2024-10-05,GULLKLOCKA,Bedding,59.99,,,
+O1342,2024-07-25,HEKTAR,Lamps,930.56,,,
+O1342,2024-07-25,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1344,2024-08-14,FADO,Lamps,22.0,,,
+O1344,2024-08-11,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1344,2024-08-11,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1344,2024-08-09,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1344,2024-08-08,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1345,2023-01-08,VINDUM,Rugs,250.0,,,
+O1348,2024-09-01,LAGAN,Appliances,600.0,,,
+O1349,2023-03-05,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1349,2023-03-03,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1349,2023-03-03,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1349,2023-03-04,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1350,2024-08-15,FÄLTSKÄR,Bedding,993.45,,,
+O1351,2023-01-29,FADO,Lamps,22.0,,,
+O1355,2023-03-27,HEKTAR,Lamps,930.56,,,
+O1355,2023-03-26,STOENSE,Rugs,140.91,,,
+O1355,2023-03-27,TRÅDFRI,Lighting,15.0,,,
+O1357,2023-11-05,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1362,2024-09-17,FADO,Lamps,22.0,,,
+O1363,2023-03-08,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1364,2024-08-02,LAGAN,Appliances,600.0,,,
+O1366,2024-12-28,STOENSE,Rugs,140.91,,,
+O1367,2023-05-07,HEKTAR,Lamps,930.56,,,
+O1369,2023-03-22,FÄRGRIK,Dinnerware,1.89,,,
+O1370,2024-11-29,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1371,2023-08-07,FÄLTSKÄR,Bedding,993.45,,,
+O1372,2024-12-14,FADO,Lamps,22.0,,,
+O1372,2024-12-15,GULLKLOCKA,Bedding,59.99,,,
+O1372,2024-12-14,LERSTA,Lamps,5.99,,,
+O1373,2023-05-07,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1373,2023-05-04,LAGAN,Appliances,600.0,,,
+O1373,2023-05-06,VINDUM,Rugs,250.0,,,
+O1374,2024-09-08,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1376,2024-07-20,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1376,2024-07-20,STOENSE,Rugs,140.91,,,
+O1376,2024-07-20,VINDUM,Rugs,250.0,,,
+O1379,2023-08-05,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1382,2024-09-11,LAGAN,Appliances,600.0,,,
+O1384,2024-07-31,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1385,2023-11-03,GULLKLOCKA,Bedding,59.99,,,
+O1386,2024-04-18,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1386,2024-04-18,FÄLTSKÄR,Bedding,993.45,,,
+O1386,2024-04-12,HEKTAR,Lamps,930.56,,,
+O1386,2024-04-14,HEKTAR,Lamps,930.56,,,
+O1386,2024-04-09,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1386,2024-04-19,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1386,2024-04-15,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1386,2024-04-12,TRÅDFRI,Lighting,15.0,,,
+O1387,2023-08-20,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1388,2024-12-08,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1388,2024-12-07,HEKTAR,Lamps,930.56,,,
+O1388,2024-12-07,HEKTAR,Lamps,930.56,,,
+O1388,2024-12-07,TRÅDFRI,Lighting,15.0,,,
+O1388,2024-12-07,TRÅDFRI,Lighting,15.0,,,
+O1390,2024-10-04,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1390,2024-10-05,OFTAST,Dinnerware,1.49,,,
+O1392,2024-11-20,LERSTA,Lamps,5.99,,,
+O1392,2024-11-20,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1393,2023-01-22,LERSTA,Lamps,5.99,,,
+O1396,2024-05-15,FÄLTSKÄR,Bedding,993.45,,,
+O1397,2023-09-02,FADO,Lamps,22.0,,,
+O1398,2024-10-25,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1399,2023-04-10,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1400,2024-12-16,LAGAN,Appliances,600.0,,,
+O1401,2023-08-11,GULLKLOCKA,Bedding,59.99,,,
+O1401,2023-08-14,HEKTAR,Lamps,930.56,,,
+O1401,2023-08-14,TRÅDFRI,Lighting,15.0,,,
+O1403,2023-02-05,FÄLTSKÄR,Bedding,993.45,,,
+O1403,2023-02-04,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1403,2023-02-04,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1405,2023-04-28,FÄRGRIK,Dinnerware,1.89,,,
+O1408,2024-07-06,HEKTAR,Lamps,930.56,,,
+O1410,2024-05-08,GULLKLOCKA,Bedding,59.99,,,
+O1411,2023-09-24,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1411,2023-09-19,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1412,2024-12-24,LAGAN,Appliances,600.0,,,
+O1413,2023-03-24,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1415,2023-01-01,HEKTAR,Lamps,930.56,,,
+O1415,2023-01-01,TILLREDA,Appliances,957.28,,,
+O1415,2023-01-01,TRÅDFRI,Lighting,15.0,,,
+O1416,2024-11-16,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1417,2023-05-16,LAGAN,Appliances,600.0,,,
+O1417,2023-05-16,OFTAST,Dinnerware,1.49,,,
+O1418,2024-07-22,FÄLTSKÄR,Bedding,993.45,,,
+O1419,2023-11-08,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1420,2024-05-30,FADO,Lamps,22.0,,,
+O1422,2024-12-01,TILLREDA,Appliances,957.28,,,
+O1423,2023-02-09,FÄRGRIK,Dinnerware,1.89,,,
+O1423,2023-02-10,LERSTA,Lamps,5.99,,,
+O1423,2023-02-08,STOENSE,Rugs,140.91,,,
+O1425,2023-06-12,LINNMON/ADILS,Tables,260.12,,,
+O1426,2024-09-10,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1427,2023-01-16,FÄRGRIK,Dinnerware,1.89,,,
+O1427,2023-01-15,GULLKLOCKA,Bedding,59.99,,,
+O1427,2023-01-18,VINDUM,Rugs,250.0,,,
+O1428,2024-11-27,OFTAST,Dinnerware,1.49,,,
+O1429,2023-05-01,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1431,2023-03-01,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1432,2024-11-03,STOENSE,Rugs,140.91,,,
+O1433,2023-06-25,TILLREDA,Appliances,957.28,,,
+O1434,2024-12-08,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1434,2024-12-08,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1436,2024-07-29,FÄLTSKÄR,Bedding,993.45,,,
+O1437,2023-11-23,FÄRGRIK,Dinnerware,1.89,,,
+O1437,2023-11-20,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1437,2023-11-23,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1437,2023-11-24,OFTAST,Dinnerware,1.49,,,
+O1441,2023-03-05,VINDUM,Rugs,250.0,,,
+O1442,2024-08-16,FÄLTSKÄR,Bedding,993.45,,,
+O1442,2024-08-16,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1444,2024-11-13,LAGAN,Appliances,600.0,,,
+O1448,2024-07-27,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1450,2024-05-22,LINNMON/ADILS,Tables,260.12,,,
+O1452,2024-12-05,STOENSE,Rugs,140.91,,,
+O1452,2024-12-06,TILLREDA,Appliances,957.28,,,
+O1455,2023-01-09,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1455,2023-01-09,LAGAN,Appliances,600.0,,,
+O1456,2024-11-23,TILLREDA,Appliances,957.28,,,
+O1459,2023-03-29,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1459,2023-03-30,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1459,2023-03-30,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1460,2024-07-03,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1463,2023-09-27,FADO,Lamps,22.0,,,
+O1463,2023-09-25,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1463,2023-09-24,OFTAST,Dinnerware,1.49,,,
+O1464,2024-12-12,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1467,2023-11-28,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1468,2024-05-18,HEKTAR,Lamps,930.56,,,
+O1468,2024-05-16,LAGAN,Appliances,600.0,,,
+O1468,2024-05-18,TRÅDFRI,Lighting,15.0,,,
+O1470,2024-12-03,STOENSE,Rugs,140.91,,,
+O1471,2023-01-29,FADO,Lamps,22.0,,,
+O1474,2024-05-25,GULLKLOCKA,Bedding,59.99,,,
+O1481,2023-05-14,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1481,2023-05-12,OFTAST,Dinnerware,1.49,,,
+O1482,2024-09-01,LINNMON/ADILS,Tables,260.12,,,
+O1483,2023-03-21,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1484,2024-12-25,FÄLTSKÄR,Bedding,993.45,,,
+O1484,2024-12-28,HEKTAR,Lamps,930.56,,,
+O1484,2024-12-28,TRÅDFRI,Lighting,15.0,,,
+O1486,2024-09-14,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1487,2023-03-07,TILLREDA,Appliances,957.28,,,
+O1489,2023-01-13,STOENSE,Rugs,140.91,,,
+O1490,2024-06-21,HEKTAR,Lamps,930.56,,,
+O1493,2023-09-02,GULLKLOCKA,Bedding,59.99,,,
+O1494,2024-12-11,FADO,Lamps,22.0,,,
+O1495,2023-03-10,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1496,2024-07-28,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1497,2023-01-24,FÄRGRIK,Dinnerware,1.89,,,
+O1500,2024-09-22,FÄLTSKÄR,Bedding,993.45,,,
+O1500,2024-09-20,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1500,2024-09-24,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1500,2024-09-19,ODGER,Chairs,448.33,Swivel chair,"Ancho: 68.0cm, Fondo: 68.0cm",https://www.ikea.com/sa/en/p/odger-swivel-chair-white-beige-70308685/
+O1501,2023-03-05,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1502,2024-08-07,FÄLTSKÄR,Bedding,993.45,,,
+O1503,2023-01-02,LAGAN,Appliances,600.0,,,
+O1505,2023-05-08,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1508,2024-05-27,VINDUM,Rugs,250.0,,,
+O1509,2023-09-06,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1509,2023-09-06,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1511,2023-03-27,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1513,2023-01-08,GULLKLOCKA,Bedding,59.99,,,
+O1515,2023-05-20,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1515,2023-05-24,INGATORP,Chairs,546.04,"Table and 4 chairs, 155 cm","Ancho: 87.0cm, Alto: 74.0cm",https://www.ikea.com/sa/en/p/ingatorp-ingolf-table-and-4-chairs-white-s29917307/
+O1515,2023-05-23,TILLREDA,Appliances,957.28,,,
+O1517,2023-03-15,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1517,2023-03-15,LACK,Tables,10.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1517,2023-03-14,LINNMON/ADILS,Tables,260.12,,,
+O1518,2024-08-25,STOENSE,Rugs,140.91,,,
+O1520,2024-12-02,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1520,2024-12-03,GULLKLOCKA,Bedding,59.99,,,
+O1521,2023-05-10,HEKTAR,Lamps,930.56,,,
+O1521,2023-05-11,LACK,Bookcases & shelving units,20.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1521,2023-05-11,LINNMON/ADILS,Tables,260.12,,,
+O1521,2023-05-10,TRÅDFRI,Lighting,15.0,,,
+O1524,2024-11-06,LAGAN,Appliances,600.0,,,
+O1525,2023-05-03,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1527,2023-09-30,HEKTAR,Lamps,930.56,,,
+O1527,2023-09-27,LERSTA,Lamps,5.99,,,
+O1527,2023-09-30,TRÅDFRI,Lighting,15.0,,,
+O1528,2024-07-29,STOENSE,Rugs,140.91,,,
+O1531,2023-05-14,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1532,2024-08-06,FÄLTSKÄR,Bedding,993.45,,,
+O1535,2023-05-02,LAGAN,Appliances,600.0,,,
+O1536,2024-09-08,VINDUM,Rugs,250.0,,,
+O1537,2023-03-24,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1537,2023-03-25,TILLREDA,Appliances,957.28,,,
+O1538,2024-08-28,KLIPPAN,Sofas & armchairs,773.41,2-seat sofa,"Ancho: 180.0cm, Alto: 66.0cm, Fondo: 88.0cm",https://www.ikea.com/sa/en/p/klippan-2-seat-sofa-kabusa-dark-grey-s09251777/
+O1538,2024-09-01,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1538,2024-08-29,LAGAN,Appliances,600.0,,,
+O1539,2023-01-19,LERSTA,Lamps,5.99,,,
+O1540,2024-11-13,OFTAST,Dinnerware,1.49,,,
+O1541,2023-05-29,FÄLTSKÄR,Bedding,993.45,,,
+O1543,2023-03-08,KALLAX,Bookcases & shelving units,49.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
+O1547,2023-11-01,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1548,2024-11-20,BRIMNES,Beds,321.05,"Bed frame w storage and headboard, 90x200 cm","Ancho: 96.0cm, Alto: 110.0cm, Fondo: 54.0cm",https://www.ikea.com/sa/en/p/brimnes-bed-frame-w-storage-and-headboard-white-luroey-s49278341/
+O1549,2023-05-24,FADO,Lamps,22.0,,,
+O1550,2024-09-09,TILLREDA,Appliances,957.28,,,
+O1551,2023-03-21,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1552,2024-08-01,GULLKLOCKA,Bedding,59.99,,,
+O1552,2024-08-02,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1554,2024-11-29,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1555,2023-05-07,LINNMON/ADILS,Tables,260.12,,,
+O1556,2024-09-17,FÄRGRIK,Dinnerware,1.89,,,
+O1557,2023-03-14,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1557,2023-03-12,VINDUM,Rugs,250.0,,,
+O1558,2024-12-16,LERSTA,Lamps,5.99,,,
+O1558,2024-12-17,LERSTA,Lamps,5.99,,,
+O1559,2023-05-30,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1560,2024-09-29,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1561,2023-03-01,FÄLTSKÄR,Bedding,993.45,,,
+O1563,2023-01-22,LAGAN,Appliances,600.0,,,
+O1564,2024-11-28,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1564,2024-11-27,LACK,Bookcases & shelving units,25.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1564,2024-11-28,TILLREDA,Appliances,957.28,,,
+O1565,2023-05-09,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1566,2024-09-01,STOENSE,Rugs,140.91,,,
+O1567,2023-03-16,LERSTA,Lamps,5.99,,,
+O1568,2024-08-20,KIVIK,Chairs,799.0,Chaise longue,"Ancho: 90.0cm, Alto: 83.0cm, Fondo: 163.0cm",https://www.ikea.com/sa/en/p/kivik-chaise-longue-skiftebo-dark-grey-s79305512/
+O1569,2023-01-28,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1570,2024-11-05,PAX,Wardrobes,737.91,"Wardrobe combination, 150x58x201 cm","Ancho: 150.0cm, Alto: 201.0cm, Fondo: 58.0cm",https://www.ikea.com/sa/en/p/pax-wardrobe-combination-white-s29385672/
+O1570,2024-11-04,TILLREDA,Appliances,957.28,,,
+O1571,2023-05-17,GULLKLOCKA,Bedding,59.99,,,
+O1571,2023-05-18,LACK,Bookcases & shelving units,20.0,"Wall shelf unit, 30x190 cm","Ancho: 30.0cm, Alto: 190.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/lack-wall-shelf-unit-white-60282186/
+O1573,2023-03-28,FADO,Lamps,22.0,,,
+O1573,2023-03-29,MILLBERGET,Chairs,150.0,Swivel chair,Fondo: 65.0cm,https://www.ikea.com/sa/en/p/millberget-swivel-chair-bomstad-black-90339412/
+O1574,2024-08-05,BILLY,Bookcases & shelving units,271.04,"Bookcase, 80x28x202 cm","Ancho: 80.0cm, Alto: 202.0cm, Fondo: 28.0cm",https://www.ikea.com/sa/en/p/billy-bookcase-white-00263850/
+O1576,2024-11-23,STOENSE,Rugs,140.91,,,
+O1577,2023-05-01,ADDE,Chairs,11.2,Chair,"Ancho: 39.0cm, Alto: 77.0cm, Fondo: 47.0cm",https://www.ikea.com/sa/en/p/adde-chair-white-10219178/
+O1578,2024-09-27,GULLKLOCKA,Bedding,59.99,,,
+O1578,2024-09-24,HEKTAR,Lamps,930.56,,,
+O1578,2024-09-24,TRÅDFRI,Lighting,15.0,,,
+O1581,2023-01-27,GRÖNLID,Beds,650.0,2-seat sofa-bed,"Ancho: 196.0cm, Alto: 104.0cm, Fondo: 98.0cm",https://www.ikea.com/sa/en/p/groenlid-2-seat-sofa-bed-ljungen-dark-red-s29278101/
+O1583,2023-05-11,OFTAST,Dinnerware,1.49,,,
+O1584,2024-09-30,HEMNES,Beds,86.99,"Bed frame, 140x200 cm",Ancho: 154.0cm,https://www.ikea.com/sa/en/p/hemnes-bed-frame-white-stain-s89931560/
+O1584,2024-10-01,KALLAX,Bookcases & shelving units,45.99,"Shelving unit, 77x77 cm","Ancho: 77.0cm, Alto: 77.0cm, Fondo: 39.0cm",https://www.ikea.com/sa/en/p/kallax-shelving-unit-white-20275814/
