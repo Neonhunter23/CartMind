@@ -1,0 +1,32 @@
+services:
+  # --- SERVICIO 1: APLICACIÓN DECOMATE ---
+  app:
+    container_name: decomate_app
+    build:
+      context: .             # Contexto en raíz para ver requirements.txt
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8501:8501"           # Puerto Web
+    volumes:
+      - .:/app                # Sincronización código PC <-> Docker
+    env_file:
+      - .env                  # Carga claves secretas
+    depends_on:
+      - db                    # Espera a la base de datos
+    stdin_open: true
+    tty: true
+
+  # --- SERVICIO 2: BASE DE DATOS (PostgreSQL) ---
+  db:
+    container_name: decomate_db
+    image: postgres:15-alpine
+    restart: always
+    env_file:
+      - .env                  # Usa POSTGRES_USER, POSTGRES_PASSWORD del .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persistencia de datos
+    ports:
+      - "5432:5432"           # Acceso externo (PyCharm/DBeaver)
+
+volumes:
+  postgres_data:
