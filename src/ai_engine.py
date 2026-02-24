@@ -43,7 +43,7 @@ def extract_search_intent(user_query):
         }
 
     # --- CASO 4: ILUMINACIÓN (Para enseñar filtros de precio) ---
-    if any(x in q for x in ["luz", "lámpara", "bombilla", "industrial", "alumbrar"]):
+    if any(x in q for x in ["luz", "lámpara", "bombilla", "industrial", "alumbrar", "iluminación"]):
         return {
             "category": "Lighting",
             "keywords": "industrial" if "industrial" in q else "Lamp",
