@@ -1,22 +1,22 @@
 import streamlit as st
 import pandas as pd
-import time
 from ui_config import setup_ikea_style, display_header
 from ai_engine import extract_search_intent, generate_sales_response
 from logic import load_catalog, search_products
 from recommender import build_association_rules, get_recommendations
+from semantic_search import SemanticIndex
 
 # --- CONFIGURACIÓN INICIAL ---
 setup_ikea_style()
 
-# --- BARRA LATERAL (SIDEBAR) MEJORADA ---
+# --- BARRA LATERAL ---
 with st.sidebar:
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/1024px-Ikea_logo.svg.png",
              width=100)
     st.markdown("## ⚙️ Panel de Control")
 
-    # 1. KPIs (Datos del Catálogo)
-    if 'catalog' not in st.session_state:
+    # KPIs
+    if "catalog" not in st.session_state:
         st.session_state.catalog = load_catalog()
 
     df = st.session_state.catalog
@@ -29,7 +29,7 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # 2. ATAJOS RÁPIDOS (Categorías)
+    # Atajos rápidos
     st.markdown("### 🗂️ Navegación Rápida")
     if st.button("🛋️ Salón"):
         st.session_state.messages.append({"role": "user", "content": "Busco muebles para el salón"})
@@ -46,101 +46,116 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # 3. HERRAMIENTAS DE DEMO (Para el profesor)
+    # Zona técnica
     st.markdown("### 🛠️ Zona Técnica")
     debug_mode = st.checkbox("Mostrar Cerebro IA (JSON)", value=False)
+    semantic_mode = st.checkbox("Búsqueda Semántica", value=True,
+                                help="Usa embeddings para entender el significado, no solo palabras clave")
     if st.button("🗑️ Limpiar Chat"):
         st.session_state.messages = []
         st.session_state.messages.append({
             "role": "assistant",
-            "content": "¡Hola! Soy DecoMate. ¿En qué puedo ayudarte hoy?"
+            "content": "¡Hola! Soy CartMind. ¿En qué puedo ayudarte hoy?"
         })
         st.rerun()
 
-# --- CABECERA PRINCIPAL ---
+# --- CABECERA ---
 display_header()
 
-# Cargar recomendador (Solo una vez)
-if 'rules' not in st.session_state:
-    with st.spinner("Inicializando motor de recomendación..."):
+# Cargar recomendador (una vez)
+if "rules" not in st.session_state:
+    with st.spinner("Inicializando motor de recomendación (FP-Growth)..."):
         st.session_state.rules = build_association_rules()
+
+# Cargar índice semántico (una vez)
+if "semantic_index" not in st.session_state:
+    with st.spinner("Cargando modelo de búsqueda semántica..."):
+        idx = SemanticIndex()
+        if not st.session_state.catalog.empty:
+            idx.build(st.session_state.catalog)
+        st.session_state.semantic_index = idx
 
 # Inicializar historial
 if "messages" not in st.session_state:
     st.session_state.messages = []
     st.session_state.messages.append({
         "role": "assistant",
-        "content": "¡Hola! Soy DecoMate. ¿En qué puedo ayudarte hoy?"
+        "content": "¡Hola! Soy CartMind. ¿En qué puedo ayudarte hoy?"
     })
 
-# --- MOSTRAR CHAT ---
+# --- CHAT ---
 for msg in st.session_state.messages:
     if msg["role"] == "user":
         st.markdown(f'<div class="user-msg">👤 {msg["content"]}</div>', unsafe_allow_html=True)
     else:
-        # Si es mensaje del bot, puede tener formato especial, lo dejamos tal cual
         st.markdown(f'<div class="bot-msg">🤖 {msg["content"]}</div>', unsafe_allow_html=True)
 
-# --- LÓGICA DE RESPUESTA ---
-if prompt := st.chat_input("Escribe aquí... (Ej: Quiero una mesa de jardín)"):
-    # 1. Guardar y mostrar mensaje usuario
+if prompt := st.chat_input("Escribe aquí... (Ej: algo cómodo para ver la tele)"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.rerun()
 
-# Si el último mensaje es del usuario, generamos respuesta
+# --- RESPUESTA ---
 if st.session_state.messages and st.session_state.messages[-1]["role"] == "user":
     last_user_msg = st.session_state.messages[-1]["content"]
 
-    with st.spinner("Analizando catálogo..."):
-        # A) Entender Intención
+    with st.spinner("Analizando..."):
         intent = extract_search_intent(last_user_msg)
 
-        # MOSTRAR DEBUG SI ESTÁ ACTIVADO (Esto queda genial en la demo)
         if debug_mode:
-            with st.expander("🧠 DEBUG: Lo que la IA ha entendido"):
+            with st.expander("🧠 DEBUG: Intención detectada"):
                 st.json(intent)
 
-        # B) Buscar Productos
-        results = search_products(intent, st.session_state.catalog)
+        # Búsqueda: semántica si está activada, keyword como fallback
+        search_used = "keyword"
+        results = pd.DataFrame()
 
-        # C) Generar Respuesta
+        if semantic_mode and st.session_state.semantic_index.is_ready:
+            results = st.session_state.semantic_index.search(last_user_msg, top_k=5)
+            # Aplicar filtro de precio si Gemini lo detectó
+            max_price = intent.get("max_price")
+            if not results.empty and max_price:
+                filtered = results[results["price"] <= float(max_price)]
+                if not filtered.empty:
+                    results = filtered
+            if not results.empty:
+                search_used = "semantic"
+
         if results.empty:
-            response_text = "Lo siento, no he encontrado productos exactos para eso. ¿Podrías probar con otra categoría como 'Sofás' o 'Iluminación'?"
+            results = search_products(intent, st.session_state.catalog)
+
+        if debug_mode:
+            st.caption(f"🔍 Modo de búsqueda: **{search_used}**")
+
+        if results.empty:
+            response_text = "Lo siento, no he encontrado productos para eso. ¿Podrías intentarlo con otra descripción?"
         else:
             top_product = results.iloc[0]
 
-            # Formateo de precio seguro
             try:
-                price_val = float(top_product['price'])
-                price_display = f"{price_val:.2f} €"
-            except:
+                price_display = f"{float(top_product['price']):.2f} €"
+            except (ValueError, TypeError):
                 price_display = f"{top_product['price']} €"
 
-            # Generar Link a IKEA España
             ikea_es_link = f"https://www.ikea.com/es/es/search/products/?q={top_product['name'].replace(' ', '%20')}"
-
-            # Pitch de venta (IA)
             ai_pitch = generate_sales_response(top_product, last_user_msg)
 
             response_text = f"{ai_pitch}\n\n"
             response_text += f"⭐ **Recomendación Top:** [{top_product['name']}]({ikea_es_link}) - **{price_display}**\n\n"
 
-            # Mostrar dimensiones si existen
-            if str(top_product['dimensions']) != "nan" and str(top_product['dimensions']) != "":
-                response_text += f"📏 *Medidas: {top_product['dimensions']}*\n\n"
+            dims = str(top_product.get("dimensions", ""))
+            if dims and dims != "nan":
+                response_text += f"📏 *Medidas: {dims}*\n\n"
 
-            # Recomendaciones (Cross-selling)
-            recommendations = get_recommendations(top_product['name'], st.session_state.rules)
+            recommendations = get_recommendations(top_product["name"], st.session_state.rules)
             if recommendations:
                 response_text += "---\n### 💡 Frecuentemente comprados juntos:\n"
                 for rec in recommendations:
                     rec_link = f"https://www.ikea.com/es/es/search/products/?q={rec['product'].replace(' ', '%20')}"
-                    response_text += f"➕ **[{rec['product']}]({rec_link})** ({rec['confidence']})\n\n"
+                    response_text += f"➕ **[{rec['product']}]({rec_link})** ({rec['confidence']} · lift {rec['lift']})\n\n"
 
-            # Otras alternativas
             if len(results) > 1:
                 response_text += "---\n**Otras opciones:**\n"
-                for index, row in results.iloc[1:4].iterrows():
+                for _, row in results.iloc[1:4].iterrows():
                     alt_link = f"https://www.ikea.com/es/es/search/products/?q={row['name'].replace(' ', '%20')}"
                     response_text += f"- [{row['name']}]({alt_link}) - {row['price']} €\n"
 
